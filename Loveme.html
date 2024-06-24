@@ -1,15 +1,42 @@
-<html>
-  <head><style>
-    div{background:color:black;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Content</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
     }
-    </style>
-  </head>
+    div {
+      text-align: center;
+    }
+    h1 {
+      color: orange;
+    }
+    p {
+      color: blue;
+    }
+    a {
+      color: inherit; /* Inherit the color from the parent element */
+    }
+  </style>
+</head>
+<body>
   <div>
-  <h1 style="color:orange">Do <em>You</em> wanna Snu snu?</h1>
-  <body><img src="https://imgs.search.brave.com/frpJ2KTBrq43Bi_erqUm9EgWozBZ5n7UoNMog6YxV6Q/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9a/dlI0Ym5EcFkwMC9t/YXhyZXNkZWZhdWx0/LmpwZw"/>
-    <p style="color:blue">
-      <a href="https://www.youtube.com/watch?v=PKy47i9thW4" target="_blank"><strong>No</strong></a></p><p style="color:red"><a href="https://www.youtube.com/watch?v=3jwjS3Ee_SM" target="_blank"><em>Yiss</em></a>
+    <h1>Do <em>You</em> wanna Snu snu?</h1>
+    <img src="https://imgs.search.brave.com/frpJ2KTBrq43Bi_erqUm9EgWozBZ5n7UoNMog6YxV6Q/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9a/dlI0Ym5EcFkwMC9t/YXhyZXNkZWZhdWx0/LmpwZw" alt="Snu snu image"/>
+    <p>
+      <a href="https://www.youtube.com/watch?v=PKy47i9thW4" target="_blank"><strong>No</strong></a>
     </p>
-</body>
+    <p style="color:red">
+      <a href="https://www.youtube.com/watch?v=3jwjS3Ee_SM" target="_blank"><em>Yiss</em></a>
+    </p>
   </div>
+</body>
 </html>
