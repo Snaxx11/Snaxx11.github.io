@@ -8,12 +8,12 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #FA8072; /* Salmon */
-            color: #2E8B57; /* Dark Green */
+            color: #2E8B57; /* Forest Green */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #2E8B57; /* Dark Green */
+            background-color: #2E8B57; /* Forest Green */
             color: #FAFAD2; /* Tan */
             text-align: center;
             padding: 1rem 0;
@@ -71,7 +71,7 @@
         </section>
         <section id="contact">
             <h2>Contact Information</h2>
-            <p>Email: michael.millner@example.com</p>
+            <p>Email: michael.millner@gmail.com</p>
         </section>
     </main>
 </body>
